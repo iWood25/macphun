@@ -1,0 +1,10 @@
+﻿{
+	"version": 3,
+	"file": "StyleSheet.css",
+	"sources": [
+		"StyleSheet.scss"
+	],
+	"sourcesContent": [],
+	"mappings": "AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAE,SAAU;CADvB",
+	"names": []
+}

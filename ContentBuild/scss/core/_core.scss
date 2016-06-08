@@ -1,0 +1,22 @@
+﻿// --------------------------------------------------
+// Global Styles
+// --------------------------------------------------
+
+// Normalize
+@import url('/bower_components/normalize-css/normalize.css');
+
+
+// Core
+@import "variable";
+@import "typography";
+
+// Grid
+@import "grid";
+@import "button";
+@import "class";
+@import "fonts";
+
+// Own Carousel
+@import url('../../../bower_components/owl.carousel/dist/assets/owl.theme.default.min.css');
+
+

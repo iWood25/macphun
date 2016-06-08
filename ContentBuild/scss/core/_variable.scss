@@ -1,0 +1,35 @@
+﻿// --------------------------------------------------
+// Global Variables
+// --------------------------------------------------
+
+// Colors
+// -------------------------
+
+$white:						#fff;
+$mineShaft:				#333;
+$dustyGray:				#999;
+
+// Font families
+// -------------------------
+
+$fontBase: Arial, Geneva, Helvetica, sans-serif;
+$MyriadProRegular: MyriadProRegular, Arial;
+$RobotoBlack: RobotoBlack, Arial;
+$NovecentowideBook: NovecentowideBook, Arial;
+$RobotoThin: RobotoThin, Arial;
+$RobotoLight: RobotoLight, Arial;
+
+// Line heights
+// -------------------------
+
+$lineHeightBase: 1.4;
+
+// Indents
+// --------------------------------------------------
+
+$containerIndent: 10rem;
+
+// Container width
+// --------------------------------------------------
+
+$mainContainer: 100rem + $containerIndent * 2;

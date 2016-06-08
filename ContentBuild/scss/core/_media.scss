@@ -1,0 +1,322 @@
+﻿
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+	.slider {
+		.slide {
+			padding-top: 19rem;
+
+			.slide-content-left {
+				padding: 0 0 2.4rem 6rem;
+			}
+		}
+	}
+
+	.container {
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+}
+/**/
+
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+	.slider {
+		.slide {
+			padding-top: 19rem;
+
+			.slide-content-left {
+				padding: 0 9rem 2.4rem 6rem;
+
+				p {
+					margin-bottom: 2.4rem;
+					line-height: 2.6rem;
+				}
+
+				h2 {
+					font-size: 4rem;
+					margin-bottom: 1rem;
+				}
+			}
+
+			.slide-content-right {
+				font-size: 3rem;
+			}
+		}
+	}
+
+	.bunner {
+		.bunner-left {
+			height: 21.5rem;
+
+			&-text-wrap {
+				width: 15.6rem;
+
+				h2 {
+					font-size: 8.66rem;
+					margin-left: -0.8rem;
+				}
+
+				p {
+					font-size: 1.5rem;
+					line-height: 2.1rem;
+				}
+			}
+		}
+
+		.bunner-right {
+			height: 21.5rem;
+			padding: 2.8rem 0 0 4.5rem;
+
+			h3 {
+				font-size: 2rem;
+				margin-bottom: 1rem;
+			}
+
+			p {
+				font-size: 1.7rem;
+				width: 25rem;
+				margin-bottom: 1.3rem;
+			}
+		}
+	}
+
+	footer {
+		.about {
+			padding-top: 15.5rem;
+		}
+	}
+
+	.container {
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+}
+/**/
+
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.top-line {
+		min-height: unset;
+		padding: unset;
+		position: relative;
+		cursor: pointer;
+		.logo{
+			position: absolute;
+			top: 50%;
+			-moz-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+		.mobile-mnu{
+			padding: 1.5rem 0;
+			width: 100%;
+			text-align: right;
+			a{
+				display: inline-block;
+			}
+		}
+
+			.language {
+		margin-left: 20px;
+	}
+	}
+
+	.slider {
+		.slide {
+			padding-top: 4rem;
+			height: 48rem;
+
+
+			.slide-content-left {
+				padding: 0 0 2.4rem 0;
+			}
+
+			&-content-right {
+				top: 0;
+				position: relative;
+				width: 100%;
+				right: unset;
+				max-width: none;
+
+				p {
+					float: left;
+					margin-right: 2rem;
+				}
+
+				.arrow {
+					max-width: 2.4rem;
+				}
+			}
+		}
+	}
+
+	.bunner {
+		position: relative;
+		left: auto;
+		margin-right: 0;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	footer {
+		.about {
+			padding-top: 5rem;
+			padding-bottom: 2.5rem;
+		}
+	}
+
+	.container {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top-line {
+		padding: unset;
+		min-height: 4.5rem;
+
+		.logo {
+			img {
+				max-width: 12.5rem;
+			}
+		}
+	}
+
+	.slider {
+		.slide {
+			height: 50rem;
+			padding-top: 3rem;
+
+			.slide-content-left {
+				h2 {
+					font-size: 3rem;
+				}
+
+				p {
+					font-size: 1.6rem;
+				}
+			}
+
+			.slide-content-right {
+				text-align: center;
+				font-size: 2rem;
+
+				.arrow {
+					position: absolute;
+					right: 0;
+					top: 10%;
+					max-width: 1.4rem;
+				}
+			}
+		}
+	}
+
+
+	.bunner {
+		.bunner-right {
+			box-shadow: 0 0 0 128px rgba(255, 255, 255, .5) inset;
+			height: 24rem;
+			padding: 1.8rem 0 0 2rem;
+			background-position-x: 62%;
+			background-position-y: 50%;
+
+			.email {
+				padding: 0.5rem 1.5rem;
+				margin-bottom: 1.6rem;
+				margin-right: unset;
+				width: 22.5rem;
+			}
+		}
+
+
+		footer {
+			padding-top: 27.5rem;
+			padding-bottom: 2.5rem;
+		}
+	}
+}
+/**/
+
+
+/* Extra Small iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.top-line {
+		.top-menu {
+			font-size: 1.2rem;
+
+			ul {
+				li {
+					padding-left: 1rem;
+				}
+			}
+		}
+	}
+
+	.bunner {
+		/*.bunner-right:before{
+			content: "";
+			display:block; 
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			z-index: 10;
+			background-color: rgba(0, 0, 0, .4);
+		}*/
+	}
+}
+/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Extra Small, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+}
+/**/
+
+
+/* Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+/**/
+
+
+/* Medium Devices, Tablets */
+@media only screen and (min-width : 767px) {
+
+	// mobile-hidden
+	// --------------------------------------------------
+
+	.hidden-lg {
+		display: none;
+	}
+
+}
+/**/
+
+
+/* Large Devices, Desktops */
+@media only screen and (min-width : 1024px) {
+}
+/**/
+
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (min-width : 1280px) {
+}
