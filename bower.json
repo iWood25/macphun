@@ -14,6 +14,7 @@
   "devDependencies": {
     "jquery": "^2.2.3",
     "modernizr": "^3.3.1",
-    "jQuery.mmenu": "mmenu#^5.6.4"
+    "jQuery.mmenu": "mmenu#^5.6.4",
+    "owl.carousel": "OwlCarousel2#^2.1.5"
   }
 }
